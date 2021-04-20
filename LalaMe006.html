@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style/style3.css">
+<link rel="shortcut icon" type="image/x-icon" href="img/icon3.ico">
+
+<html>
+<head>
+	<title>LalaMe006</title>
+</head>
+
+	<header>
+<center> <img src="img/icon3.ico"> </center> <br />
+<center> <h1> LalaMe006 </h1> </center>
+    </header>
+    
+<div class="tab"> 
+  <button class="tablinks" onclick="things(event, 'All About Me')"> All About Me </button>
+  <button class="tablinks" onclick="things(event, 'My Music')"> My Music </button>
+  <button class="tablinks" onclick="things(event, 'Keeping Up')"> Keeping Up </button>
+  <button class="tablinks" onclick="things(event, 'Find Me')"> Find Me </button>
+</div>
+
+<div id="All About Me" class="tabcontent">
+    <body>
+<center> <h2> All About Me </h2> </center>
+	     <p>
+       I've been singing since I was 5 and started performing around 7. I've self-taught myself to play keyboard and guitar, had a momentary lapse of judgement (I seem to do that a lot) and attempted to learn clarinet and violin. <br />
+	     In the end I learnt that I was really into music, it was basically the reason I breathed. It's my blood that helps me keep going. It's my breath that revives me. It's my soul and reason of existance.
+	     </p> <br />
+<center> <h3> What I'm Upto Now </h3> </center>
+       <p>
+       I'm still in school so my life is still pretty hectic, but whenever I can I try to make videos and record myself to post. I try to post whenever I can, but I don't have control of many things so posting may be all over the place, and I'm sorry in advance for that. <br />
+       Although my career may not lead to being based around music, it is still my passion and love and so I will always do it. I just hope you guys are all there with me.
+      </p>
+<center> <h3> Quick Last Words </h3> </center>
+       <p>
+       Please follow me. Don't forget to like and share my videos too. It would be so awesome and support. <br />
+       As I have said before, I love music & I love performing and making music. So your supportive would mean the most to me. <br />
+       Thanks <3
+       </p>
+    </body>
+</div>
+
+<div id="My Music" class="tabcontent">
+    <body>
+<center> <h2> My Music </h2> </center>
+<p> P.S. These are not my videos. I haven't uploaded any so these are placeholders for now. </p>
+<center> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0TSxB_Tb2F0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <iframe width="560" height="315" src="https://www.youtube.com/embed/L6xQEZ7Hi_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center> <br />
+<center> <h3> Don't forget to Like, Subscribe & Share </h3> </center>
+    </body>
+</div>
+
+<div id="Keeping Up" class="tabcontent">
+    <body>
+<center> <h2> Keeping Up </h2> </center>
+<center> <h3> with the kardashians (lol) </h3> </center> 
+       <p>
+       Okay, not the Kardashians, but I'm just as hot. Jk. Jk. Jk. Unless... Jk. Kind of. <br />
+       I'll just once in a while remember to tell you guys when I cannot post or whatever... Love yall <3
+       </p>
+<center> <h3> News </h3> </center>
+        <h4> 16.03.21 </h4> 
+        <p> I will be posting a cover of "No Time To Die" by Billie Eilish soon!!! It will be my first post so I'm gonna have to make it perfect, so... soon. </p>
+    </body>
+</div>
+
+<div id="Find Me" class="tabcontent">
+    <body>
+<center> <h2> Find Me </h2> </center>
+       <p style="color: #e3a19d; padding: 50px; border: 2.5px solid #c20606;">
+       If you guys are looking for my videos they are on my YouTube channel, where I hope you guys will remember to subscribe. 
+       </p> <br />
+<center> <a href="https://www.youtube.com/channel/UCrnlUqcopgsHyWIGek8zwgA" target=_blank style="color:#c20606;"> YouTube </a> </center>
+       
+       <p style="color: #e39dc7; padding: 50px; border: 2.5px solid hotpink;">
+       I post my songs on my Instagram too, as well as putting regular updated stories of my progress and different polls for you guys to vote on. 
+       </p> <br />
+<center> <a href="https://www.instagram.com/lala_me_006/" target=_blank style="color: hotpink;"> Instagram </a> </center> 
+       
+       <p style="color: #a19fe3; padding: 50px; border: 2.5px solid darkblue;">
+       Ofcourse you can comment on my videos on YouTube and Instagram and DM me on Instagram, but if you want you can send an email too. (No hate mail pls...)
+       </p> <br />
+<center> <a href="mailto: saliha.tasnim006@gmail.com" target=_blank style="color: darkblue;"> Email </a> </center>
+       
+    </body>
+</div>
+
+    <footer>
+ <center> <a href= "https://www.youtube.com/channel/UCrnlUqcopgsHyWIGek8zwgA" target=_blank> <img src="img/YouTube.png" width="42px" height="42px"> <a href= "https://www.instagram.com/lala_me_006/" target=_blank> <img src="img/Instagram.png" width="42px" height="42px"> <a href= "mailto: saliha.tasnim006@gmail.com" target=_blank> <img src="img/Gmail.png" width="42px" height="42px"> </center>
+    </footer>
+
+</html> 
+
+<script>
+function things(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
